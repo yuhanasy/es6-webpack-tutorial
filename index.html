@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .btn {
+      margin-bottom: 20px;
+      padding: 10px 20px;
+      background-color: royalblue;
+      font-size: 1rem;
+      color: white;
+      border: 1px solid #6188fc;
+    }
+
+    .btn:hover {
+      background-color: #6188fc;
+    }
+
+    .box {
+      border: 1px solid royalblue;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h2>Multiply a and b:</h2>
+      <p>a = 5</p>
+      <p>b = 5</p>
+      <button id="btn-1" type="button" class="btn">Multiply</button>
+      <div>Result is >> <strong><span id="multiplyA-B"></span></strong></div>
+    </div>
+    
+    <div class="box">
+      <h2>Multiply x ( x = 2 ) and y:</h2>
+      <p>y = 6</p>
+      <button id="btn-2" type="button" class="btn">Multiply</button>
+      <div>The result is >> <strong><span id="multiplyX-Y"></span></strong></div>
+    </div>
+    <script src="./dist/main.bundle.js"></script>
+  </body>
+</html>
